@@ -2,12 +2,10 @@ Comparative Sales Analysis Dashboard
 This dashboard tracks key metrics such as current year (CY) sales, previous year (PY) sales, budgeted sales, and year-over-year (YOY) sales growth. 
 The dashboard helps stakeholders compare the sales performance across different categories and months, providing insights into the company’s financial health and sales efficiency.
 
-Data Source & Preparation:
-The data was sourced from the company’s internal sales records and budget reports. I used Power BI’s Query Editor to clean and transform the raw data, ensuring consistency in the data formats and removing any discrepancies. The preparation involved creating relationships between sales figures across multiple years to enable accurate comparisons.
+Analytical Methods:
+I used DAX expressions to compute key metrics such as YOY growth percentage and budget variance. Additionally, conditional formatting was applied to highlight categories performing above or below the budget, offering a quick visual cue for decision-makers.
 
-Process:
-Data Preparation: I used Power BI’s Query Editor to clean and prepare the raw dataset.
-Analysis: DAX expressions were used to calculate key values such as total medal counts, top athlete performances, and gender distributions.
-Data Modeling: I structured the data through modeling techniques, making it easier to generate accurate, insightful visualizations.
-Visualization: I created a series of charts, tables, and graphs to display the findings in a user-friendly dashboard format.
+Challenges & Solutions:
+A challenge was dealing with inconsistent time-series data across different categories and products. To resolve this, I implemented time intelligence functions in Power BI to standardize the dates and create accurate time-based comparisons.
+
 
